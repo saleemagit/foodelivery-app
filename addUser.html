@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {   
+    padding:30px;   
+    background-color:#fff; 
+    margin: 50px auto; 
+    max-width: 500px;
+    box-shadow:0px 0px 10px px rgba(0,0,0,0.2);
+}   
+h1{
+    text-align: center;
+    font-size:36px;
+    margin-bottom: 30px;
+}
+form {   
+    border: 3px solid #f1f1f1;   
+}   
+input[type=text], input[type=text], input[type=text], input[type=password] {   
+    width: 100%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid green;   
+    box-sizing: border-box;   
+}  
+button[type="submit"]{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    color:#fff;
+    font-size:18px;
+    background-color: #007bff;
+    cursor:pointer;
+    box-shadow:0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+button[type="submit"]:hover{
+    background-color: #0062;
+}
+
+
+</style>
+
+    
+</head>
+<body>
+    <center> <h1>Sign up Form </h1> </center>
+    <form>
+        <div class="container">
+            <label>email : </label>
+            <input type="text" placeholder="email" name="email" required>
+            <label>password : </label>
+            <input type="password" placeholder="password" name="password" required>
+            <label>firstname : </label>
+            <input type="text" placeholder="firstname" name="firstname" required>
+            <label>lastname : </label>
+            <input type="text" placeholder="lastname" name="lastname" required>
+            <label>phonenumber : </label>
+            <input type="text" placeholder="phonenumber" name="phonenumber" required>
+            <label>address : </label>
+            <input type="text" placeholder="address" name="address" required>
+            <label>usertype : </label>
+            <input type="text" placeholder="usertype" name="usertype" required>
+           
+            <div>
+            <button type="submit">Sign in as Customer</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit">Sign in as Delivery Person</button>
+           </div>
+        </div>
+    </form>  
+</body
+</html>
